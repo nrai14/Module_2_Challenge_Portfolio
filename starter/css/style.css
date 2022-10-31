@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  display: grid;
+  grid-template-areas: {
+    'sec-1 sec-2'
+    'sec-3 sec-2'
+    'sec-4 sec-2'
+  }  
+}
+
+.side_bar {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf665;
+  font-family: 
+}
+
+
+.projects {
+  grid-area: 'sec-1'; 
+  padding: 20px;
+  background-color: #fbf665
+}
+
+.about {
+  grid-area: 'sec-3';
+  padding: 20px;
+  background-color: #fbf665
+}
+
+.contact {
+  grid-area: 'sec-4'; 
+  padding: 20px; 
+  background-color: #fbf665
+}
+
+.main_stage {
+  grid-area: 'sec-2';
+  justify-content: center;
+  padding: 40px;
+  background-color: #fbf665;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
