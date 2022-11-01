@@ -1,10 +1,11 @@
 /* Aiming for a sleek futuristic style, cyberpunk inspired with lots of character flowing through it */
 
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #fcde67
+  background-color: white
 }
 
 body {
@@ -19,7 +20,7 @@ body {
 .side_bar {
   display: flex;
   justify-content: space-evenly;
-  background-color: #5bccf6  ;
+  padding: 15px;
 }
 
 /*Need to add placeholder projects: 1) Dynamic Landing Page 2) JavaScript Quiz 3) Weather App 4) Calculator*/
@@ -32,35 +33,51 @@ Light yellow - #fff69f Light Orange #fdd870 Dark Orange #d0902f brown #a15501 da
 Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 
 */
+.about {
+  grid-area: 'sec-3';
+  padding: 20px;
+  background-color: #5bccf6;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+#about-content {
+  border-radius: 25px;
+
+}
 
 .projects {
   grid-area: 'sec-1'; 
   padding: 20px;
   background-color:  #5bccf6;
   text-decoration: none;
+  border-radius: 25px;
 }
 
-.about {
-  grid-area: 'sec-3';
-  padding: 20px;
-  background-color: #5bccf6;
-  text-decoration: none;
-}
 
 .contact {
   grid-area: 'sec-4'; 
   padding: 20px; 
   background-color: #5bccf6;
   text-decoration: none;
+  border-radius: 25px;
 }
 
 #hero {
   display: block;
   height: 100vh; 
   padding: 100px;
-  margin: 100px;
+  margin: 10px;
   background-color: #fcde67;
   font-family: Roboto;
+  text-align: center; 
+  border-radius: 25px;
+}
+
+section h1, h3 {
+  background-color: #fcde67;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 section h3 {
@@ -69,7 +86,7 @@ section h3 {
 }
 
 .photo {
-  padding: 5px;
+  padding: 20px;
 }
 
 .bio {
@@ -92,13 +109,10 @@ section h3 {
   align-items: center; 
 }
 
-.bio div h3 {
 
-  /* position: absolute; 
-  top: 50%; 
-  left: 40%; */
-}
 /* Responsive design - make sure it works with majority of devices when being viewed */ 
+
+
 
 @media (max-width: 750px) {
   
