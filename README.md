@@ -20,12 +20,6 @@ Deployed website link: https://nrai14.github.io/Portfolio/
 
 Screenshots: https://github.com/nrai14/Portfolio/issues/1
 
-<img src="../Module_2_Challenge_Portfolio/starter/images/Opening%20Page.PNG">
-<img src="../Module_2_Challenge_Portfolio/starter/images/About%20Me.PNG)>
-<img src="../Module_2_Challenge_Portfolio/starter/images/Projects.PNG)>
-<img src="../Module_2_Challenge_Portfolio/starter/images/Contact%20Form.PNG)>
-
-
 
 
 ## Installation
