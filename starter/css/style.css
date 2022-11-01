@@ -62,7 +62,6 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 
 */
 .about {
-  grid-area: 'sec-3';
   padding: 20px;
   text-decoration: none;
   border-radius: 25px;
@@ -76,8 +75,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 
 }
 
-.projects {
-  grid-area: 'sec-1'; 
+.projects {; 
   padding: 20px;
   text-decoration: none;
   border-radius: 25px;
@@ -87,7 +85,6 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 
 
 .contact {
-  grid-area: 'sec-4'; 
   padding: 20px; 
   text-decoration: none;
   border-radius: 25px;
@@ -127,9 +124,7 @@ section h3 {
   font-size: 40px;
 }
 
-.photo {
-  padding: 20px;
-}
+
 
 article div h3 {
   color: #5bccf6;
@@ -168,32 +163,45 @@ article div h3 {
   justify-content: center;
 }
 
+
+
 .dlp {
   padding: 50px;
   margin: 50px;
+  text-align: center;
 }
 
 .quiz {
   padding: 50px;
   margin: 50px;
+  text-align: center;
 }
 
 .weather {
   padding: 50px;
   margin: 50px;
+  text-align: center;
 }
 
 .calculator {
   padding: 50px;
   margin: 50px;
+  text-align: center;
 }
 
 .grid_container {
   display: grid; 
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
+.dlp .grow , .quiz .grow, .weather .grow, .calculator .grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
 
 /* Responsive design - make sure it works with majority of devices when being viewed */ 
 
