@@ -20,10 +20,10 @@ Deployed website link: ...
 
 Screenshots: 
 
-![Alt_text](../Module_2_Challenge_Portfolio/starter/images/Opening%20Page.PNG)
-![Alt_text](../Module_2_Challenge_Portfolio/starter/images/About%20Me.PNG)
-![Alt_text](../Module_2_Challenge_Portfolio/starter/images/Projects.PNG)
-![Alt_text](../Module_2_Challenge_Portfolio/starter/images/Contact%20Form.PNG)
+<img src="../Module_2_Challenge_Portfolio/starter/images/Opening%20Page.PNG">
+<img src="../Module_2_Challenge_Portfolio/starter/images/About%20Me.PNG)>
+<img src="../Module_2_Challenge_Portfolio/starter/images/Projects.PNG)>
+<img src="../Module_2_Challenge_Portfolio/starter/images/Contact%20Form.PNG)>
 
 
 
