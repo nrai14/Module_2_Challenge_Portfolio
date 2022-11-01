@@ -203,8 +203,13 @@ article div h3 {
   transform: scale(1.1);
 }
 
-/* Responsive design - make sure it works with majority of devices when being viewed */ 
+/* Contact form with label elements with distinguished lines  */
 
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+/* Responsive design - make sure it works with majority of devices when being viewed */ 
 
 
 @media (max-width: 750px) {
