@@ -43,6 +43,7 @@ body {
 #bio_1 {
   position: relative;
   padding-top: 100px;
+  height: 100vh; 
 }
 
 /*Need to add placeholder projects: 1) Dynamic Landing Page 2) JavaScript Quiz 3) Weather App 4) Calculator*/
@@ -66,6 +67,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 
 #about-content {
   border-radius: 25px;
+  font-size: 25px;
 
 }
 
@@ -105,6 +107,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 section h1, h3 {
   padding: 10px;
   border-radius: 25px;
+  font-size: 30px;
 }
 
 section h1 {
@@ -135,7 +138,7 @@ article div h3 {
   width: 15%;
   /* position: relative; */
   display: flex;
-  justify-content: center; 
+  justify-content: space-evenly; 
   align-items: center;  
   padding: 30px;
 }
