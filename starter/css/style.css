@@ -22,7 +22,10 @@ body {
   justify-content: space-around;
   padding: 15px;
   text-align: center;
+  border-bottom: 1.5px solid black
 }
+
+
 
 /*Need to add placeholder projects: 1) Dynamic Landing Page 2) JavaScript Quiz 3) Weather App 4) Calculator*/
 /* colours that I like so far: 
@@ -40,6 +43,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
   text-decoration: none;
   border-radius: 25px;
   color: #5bccf6;
+  font-size: 20px;
 }
 
 #about-content {
@@ -53,6 +57,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
   text-decoration: none;
   border-radius: 25px;
   color: #5bccf6;
+  font-size: 20px;
 }
 
 
@@ -62,6 +67,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
   text-decoration: none;
   border-radius: 25px;
   color: #5bccf6;
+  font-size: 20px;
 }
 
 #hero {
@@ -75,7 +81,7 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 }
 
 .name {
-  color: #fcde67
+  color: #5bccf6;
 }
 
 section h1, h3 {
