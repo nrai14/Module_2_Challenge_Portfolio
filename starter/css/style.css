@@ -209,6 +209,16 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
+
+.contact_form {
+  padding: 50px;
+  text-align: center;
+}
+
+.contact_form h3 {
+  text-indent: -10px;
+}
+
 /* Responsive design - make sure it works with majority of devices when being viewed */ 
 
 
