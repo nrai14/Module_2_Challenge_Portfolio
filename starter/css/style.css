@@ -25,7 +25,25 @@ body {
   border-bottom: 1.5px solid black
 }
 
+#anchor_1 {
+  position: relative;
+  padding-top: 100px;
+}
 
+#anchor_2 {
+  position: relative;
+  padding-top: 100px;
+}
+
+#anchor_3 {
+  position: relative;
+  padding-top: 100px;
+}
+
+#bio_1 {
+  position: relative;
+  padding-top: 100px;
+}
 
 /*Need to add placeholder projects: 1) Dynamic Landing Page 2) JavaScript Quiz 3) Weather App 4) Calculator*/
 /* colours that I like so far: 
@@ -119,6 +137,7 @@ article div h3 {
   display: flex;
   justify-content: center; 
   align-items: center;  
+  padding: 30px;
 }
 
 #about-content {
@@ -126,6 +145,18 @@ article div h3 {
   justify-content: space-around; 
   width: 80%;
   align-items: center; 
+  padding: 30px;
+}
+
+.project_container {
+  display: flex; 
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
 }
 
 .dlp {
@@ -151,9 +182,7 @@ article div h3 {
 .grid_container {
   display: grid; 
   grid-template-columns: 1fr 1fr;
-  grid-auto-rows: minmax(100px,auto);
   grid-gap: 20px;
-
 }
 
 
