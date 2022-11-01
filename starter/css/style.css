@@ -22,22 +22,27 @@ body {
   justify-content: space-around;
   padding: 15px;
   text-align: center;
-  border-bottom: 1.5px solid black
+  border-bottom: 1.5px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
 }
 
 #anchor_1 {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #anchor_2 {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #anchor_3 {
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 #bio_1 {
@@ -92,11 +97,12 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 
 #hero {
   display: block;
+  position:relative;
   height: 100vh; 
   padding: 100px;
   margin: 10px;
   font-family: Roboto;
-  text-align: center; 
+  text-align: center;
   border-radius: 25px;
 }
 
@@ -105,12 +111,12 @@ Final choice: Neon Blue: #5bccf6 / Yellow #fcde67 / Black #030e12
 }
 
 section h1, h3 {
-  padding: 10px;
   border-radius: 25px;
   font-size: 30px;
 }
 
 section h1 {
+  padding-top: 220px;
   margin-right: 300px;
   font-size: 100px;
 }
