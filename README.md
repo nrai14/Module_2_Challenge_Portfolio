@@ -18,7 +18,7 @@ The portfolio successfully loads with:
 
 Deployed website link: https://nrai14.github.io/Portfolio/
 
-Screenshots: 
+Screenshots: https://github.com/nrai14/Portfolio/issues/1
 
 <img src="../Module_2_Challenge_Portfolio/starter/images/Opening%20Page.PNG">
 <img src="../Module_2_Challenge_Portfolio/starter/images/About%20Me.PNG)>
