@@ -2,7 +2,7 @@
 
 ## Description
 
-For the second week of bootcamp, I created a website development portfolio utilisng HTML and CSS. Each section uses CSS Flexbox and Grid and throughout the course I will be seeking to update the placeholder images/texts once I have created other applications to replace them with. 
+I created a website development portfolio utilisng HTML and CSS. Each section uses CSS Flexbox and Grid and throughout the course I will be seeking to update the placeholder images/texts once I have created other applications to replace them with. 
 
 This task is important as it has been stressed that a strong portfolio will be key to achieving a full-time position, as it allows one to highlight their strongest work as well as the thought processes behind it. 
 
